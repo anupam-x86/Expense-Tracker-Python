@@ -1,0 +1,96 @@
+<svg width="960" height="600" viewBox="0 0 960 600"
+     xmlns="http://www.w3.org/2000/svg"
+     font-family="Arial, Helvetica, sans-serif">
+
+  <!-- AUTH -->
+  <rect x="50" y="60" width="220" height="120"
+        rx="10" fill="#DCEBF9"
+        stroke="#1F5C99" stroke-width="1.5"/>
+
+  <text x="160" y="88"
+        text-anchor="middle"
+        font-size="15"
+        font-weight="bold"
+        fill="#0d2b47">AUTH</text>
+
+  <line x1="50" y1="100" x2="270" y2="100"
+        stroke="#1F5C99"/>
+
+  <text x="65" y="125" font-size="13">PK uname : varchar</text>
+  <text x="65" y="150" font-size="13">psswd : varchar</text>
+
+  <!-- CURRENCY -->
+  <rect x="660" y="60" width="240" height="110"
+        rx="10" fill="#FBE3D8"
+        stroke="#A1431F" stroke-width="1.5"/>
+
+  <text x="780" y="88"
+        text-anchor="middle"
+        font-size="15"
+        font-weight="bold"
+        fill="#4d2000">CURRENCY</text>
+
+  <line x1="660" y1="100" x2="900" y2="100"
+        stroke="#A1431F"/>
+
+  <text x="675" y="125" font-size="13">PK type : varchar</text>
+  <text x="675" y="150" font-size="13">value : decimal</text>
+
+  <!-- EXPENSE (CENTER) -->
+  <rect x="340" y="180" width="280" height="280"
+        rx="10" fill="#D7F0E3"
+        stroke="#1F6B41" stroke-width="1.5"/>
+
+  <text x="480" y="208"
+        text-anchor="middle"
+        font-size="15"
+        font-weight="bold"
+        fill="#0d3320">EXPENSE</text>
+
+  <line x1="340" y1="220" x2="620" y2="220"
+        stroke="#1F6B41"/>
+
+  <text x="355" y="245" font-size="13">PK id : int</text>
+  <text x="355" y="268" font-size="13">date : date</text>
+  <text x="355" y="291" font-size="13">amount : decimal</text>
+  <text x="355" y="314" font-size="13">transactionType : varchar</text>
+  <text x="355" y="337" font-size="13">paymentMode : varchar</text>
+  <text x="355" y="360" font-size="13">payee : varchar</text>
+  <text x="355" y="383" font-size="13">category : varchar</text>
+  <text x="355" y="406" font-size="13">description : varchar</text>
+  <text x="355" y="429" font-size="13">currencyType : varchar</text>
+
+  <!-- BUDGET -->
+  <rect x="50" y="360" width="220" height="110"
+        rx="10" fill="#FBEAD2"
+        stroke="#A1700D" stroke-width="1.5"/>
+
+  <text x="160" y="388"
+        text-anchor="middle"
+        font-size="15"
+        font-weight="bold"
+        fill="#4d3500">BUDGET</text>
+
+  <line x1="50" y1="400" x2="270" y2="400"
+        stroke="#A1700D"/>
+
+  <text x="65" y="425" font-size="13">PK type : varchar</text>
+  <text x="65" y="450" font-size="13">amount : decimal</text>
+
+  <!-- Relationships -->
+  <line x1="270" y1="120"
+        x2="340" y2="220"
+        stroke="#444444"
+        stroke-width="2"/>
+
+  <line x1="660" y1="120"
+        x2="620" y2="220"
+        stroke="#444444"
+        stroke-width="2"/>
+
+  <line x1="160" y1="180"
+        x2="160" y2="360"
+        stroke="#444444"
+        stroke-width="2"/>
+
+</svg>
